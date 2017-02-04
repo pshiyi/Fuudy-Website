@@ -7,6 +7,7 @@
 	height: 100%;
 	left:0px;
 }
+
 .Title {
 	position: absolute;
 	top: 0px;
@@ -16,6 +17,7 @@
 .Title p {
 	color:rgb(254, 129, 0);
 	position: absolute;
+	text_align:center;
 	right: 20px;
 	font-weight: bold;
 	font-size: 5vh;
@@ -108,8 +110,8 @@ img {
 
 
 .worker-pic {
-	top:8vh;
-	left: 50vw;
+	top:1vh;
+	left: 52vw;
 	width: 40%;
 	height: 80%;
 }
@@ -189,9 +191,12 @@ body {
 	background-color: white;
 }
 .nav {
-	margin-right: 5px;
+	margin-right: 20px;
 	font-weight: bold;
 	height: 40vh;
+}
+.nav li {
+	padding-left: 5px;
 }
 .nav a {
 	font-weight: bold;
@@ -247,9 +252,15 @@ body {height: 100%;width: 100%;}
 	font-size: 140%;
 	
 }
-#intro {
+#intro_1 {
 	font-weight: bold;
+	text-align: justify;
 }
+
+#intro_2 {
+	text-align: justify;
+}
+
 #touch p  {
 	font-size: 3vw;
 }
