@@ -296,3 +296,38 @@ body {height: 100%;width: 100%;}
 	position: relative;
 	left: 75%;
 }
+
+
+.bottom-logo{min-height: 150px;}
+.bottom-logo img{
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+    opacity: 0.5;
+    margin-top: 30%;
+    margin-left: auto;
+}
+.bottom-logo img:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    opacity: 1;
+}
+
+.footer-logos li{
+list-style: none;
+display: inline-block;
+margin: 2% 3.5%;
+Width: 10%;
+}
+
+.footer-logos li img {
+ Width: 100%;
+
+}
+
+
