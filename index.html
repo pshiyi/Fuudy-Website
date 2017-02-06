@@ -19,13 +19,17 @@
         <script src="js/jquery.animateNumber.min.js"></script>
 
     </head>
+    <style>
+         body,Title, Slogan {font-family: "Raleway", sans-serif}
+
+    </style>
     <body>
        <ul class="nav">
-            <li><a href="about.html">About </a>  |</li>
-            <li><a href="news.asp">Our Story </a>  |</li>
+            <li><a href="about.html">Our Story </a></li>
+           <!-- <li><a href="news.asp">Our Story </a>  |</li>
             <li><a href="contact.asp">Partners </a>  |</li>
             <li><a href="about.asp">Contact </a>  |</li>
-            <li><a href="about.asp">Donate </a></li>
+            <li><a href="about.asp">Donate </a></li> -->
           </ul>
         <div class="section" id="react">
          
@@ -39,7 +43,7 @@
                 <div id = "Slogan" style="position: absolute;">
                   <h1>Fuudy</h1>
                   <p>Revive food, sharing, and lives beside you </p>
-                  <a href="learnmore.asp">[Become Our Partner]</a>
+                 <!-- <a href="learnmore.asp">[Become Our Partner]</a> -->
                 </div>
             </div>
         </div>
@@ -56,13 +60,13 @@
 
                 <div class="fuudy-movement">
                   <article>
-                      <h2>Fuddy Movement</h2>
+                      <h2>Fuudy Movement</h2>
                       <p id = "intro_1">   CANADA’S FIRST TECH-BASED CHARITABLE STUDENT INITIATIVE AGAINST HUNGER IN REVOLUTIONIZING THE WAY WE SHARE FOOD.</p>
                       <p id = "intro_2">   Fuudy utilizes technologies to revive food otherwise wasted and lives in hunger, by developing a sustainable perishable food redistribution system based on smart sharing fridge networks, connecting sharers and the needy, and simplifying food sharing within community.</p>
                   </article>
                     <ul class = "detailLinks">
-                    <li><a href="learnmore.asp">[Why Fuudy]</a></li>
-                    <li><a href="openletter.asp">[Our Story]</a></li>
+                   <!-- <li><a href="learnmore.asp">[Why Fuudy]</a></li> -->
+                    <li><a href="about.html">[Our Story]</a></li>
                     </ul>
                 </div>
             </div>
@@ -139,7 +143,7 @@
               </ul>
             </div>
           </div>
-        </div>
+</div>
             </div>
         </div>
         <div class="section" id="touch">
@@ -147,7 +151,7 @@
                   <h2>Need Your Help</h2>
                   <div style="flex-direction: row; align-items: center; justify-content: center; height: 50vh; margin-top:10vw;">
                     <div style="flex-direction: column; align-items: center; justify-content: center; height: 100%;margin: 3vw;">
-                      <p class = "data"><span id="lines">0</span>Funds</p>
+                      <p class = "data"><span id="lines">0</span>CAD</p>
                       <p>Indigogo</p>
                     </div>
                     <div style="flex-direction: column; align-items: center; justify-content: center; height: 100%;margin: 3vw;">
@@ -174,25 +178,25 @@
             </div>
             <div id = "direct">
               <ul class = "detailLinks">
-                    <li><a href="learnmore.asp">[Become Our Partner]</a></li>
-                    <li><a href="openletter.asp">[Become Our Volunteer]</a></li>
+                    <!--<li><a href="learnmore.asp">[Become Our Partner]</a></li>
+                    <li><a href="openletter.asp">[Become Our Volunteer]</a></li> -->
               </ul>
             </div>
         </div>
         <div id="slider-control">
           <a href="#react" class="active">
-            <div class="dot"></div>
+            <!--<div class="dot"></div> -->
           </a>
           <a href="#intro">
-            <div class="dot"></div>
+            <!--<div class="dot"></div> -->
           </a>
 
           <a href="#native">
-            <div class="dot"></div>
+           <!-- <div class="dot"></div> -->
           </a>
 
           <a href="#touch">
-            <div class="dot"></div>
+           <!-- <div class="dot"></div> -->
           </a>
         </div>
         <script type="text/javascript">
@@ -279,13 +283,16 @@
                 if (sectionEnteredOnce == 1) {
                   console.log("animating...", sectionEnteredOnce);
                   $('#lines').animateNumber({
-                    number: 7095217,
+                    <!--number: 7095217, -->
+                      number: 0,
                   }, 2500);
                   $('#lines2').animateNumber({
-                    number: 6282,
+                   <!-- number: 6282, -->
+                      number: 0,
                   }, 1500);
                   $('#lines3').animateNumber({
-                    number: 7324,
+                    <!--number: 7324, -->
+                      number: 0,
                   }, 1500);
                 }
               } 

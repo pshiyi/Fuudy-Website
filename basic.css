@@ -18,7 +18,7 @@
 	color:rgb(254, 129, 0);
 	position: absolute;
 	text_align:center;
-	right: 20px;
+	left: 3vw;
 	font-weight: bold;
 	font-size: 5vh;
 	margin-top: 1vh;
@@ -181,7 +181,7 @@ margin-bottom: 0;
 }
 #android h2 {
 	position: absolute;
-	right: 20px;
+	left: 3vw;
 	top: 0;
 	color:rgb(254, 129, 0);
 	font-weight: bold;
