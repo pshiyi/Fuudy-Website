@@ -269,6 +269,7 @@ body {height: 100%;width: 100%;}
 	width: 100%;
 	height: 60%;
 	top: 15%;
+	margin-bottom: 0;
 	
 }
 #partners p {
@@ -298,7 +299,11 @@ body {height: 100%;width: 100%;}
 }
 
 
-.bottom-logo{min-height: 150px;}
+.bottom-logo{
+	min-height: 150px;
+	margin-top: 0;
+	padding: 0;
+}
 .bottom-logo img{
     filter: grayscale(1);
     -webkit-filter: grayscale(1);
@@ -306,7 +311,7 @@ body {height: 100%;width: 100%;}
     -o-filter: grayscale(1);
     -ms-filter: grayscale(1);
     opacity: 0.5;
-    margin-top: 30%;
+    margin-top: 0;
     margin-left: auto;
 }
 .bottom-logo img:hover{
@@ -321,12 +326,13 @@ body {height: 100%;width: 100%;}
 .footer-logos li{
 list-style: none;
 display: inline-block;
-margin: 2% 3.5%;
+margin: 30% 12.5%;
 Width: 10%;
+margin-top: 0;
 }
 
 .footer-logos li img {
- Width: 100%;
+ Width: 30%;
 
 }
 
