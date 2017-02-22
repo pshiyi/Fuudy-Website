@@ -12,6 +12,15 @@ nav a{
 }
 
 
+/*background image for MailChimp*/
+.bgimg{
+    min-height: 100%;
+    background-position: center;
+    background-size: contain;
+}
+.bgimg {background-image: url("../image/contact_background.JPG")}
+
+
 /*MailChimp signup form*/
 #mc_embed_signup{
     clear:left;
