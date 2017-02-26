@@ -6,17 +6,26 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-      
-        
+
+
+        <!--import bootstrap, jquery and socket.io-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+
          
         <link rel="favicon" href="favicon.png">
         <!-- Place favicon.ico in the root directory -->
-        <link rel="stylesheet" href="bundle/app.css">
-         <link href="basic.css" type="text/css" rel="stylesheet" media="screen" />
+        <link rel="stylesheet" href="./bundle/app.css">
+        <link href="./basic.css" type="text/css" rel="stylesheet" media="screen" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script type="text/javascript" src="node_modules/gsap/src/uncompressed/TweenMax.js"></script>
         <script type="text/javascript" src="node_modules/gsap/src/uncompressed/plugins/ScrollToPlugin.js"></script>
-        <script src="js/jquery.animateNumber.min.js"></script>
+        <script src="./js/jquery.animateNumber.min.js"></script>
+
+        <!--Import custom css-->
+        <link rel="stylesheet" href="./css/index.css">
 
     </head>
     <style>
@@ -24,20 +33,23 @@
 
     </style>
     <body>
-       <ul class="nav">
-            <li><a href="about.html">Our Story </a></li>
-           <!-- <li><a href="news.asp">Our Story </a>  |</li>
-            <li><a href="contact.asp">Partners </a>  |</li>
-            <li><a href="about.asp">Contact </a>  |</li>
-            <li><a href="about.asp">Donate </a></li> -->
-          </ul>
+    <nav>
+        <ul class="nav navbar-nav">
+            <li  class="active"><a href="./index.html">Main</a></li>
+            <li><a href="./about.html">Our Story</a></li>
+            <li><a href="#">Supporters</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <button class="btn btn-success navbar-btn">Donate</button>
+    </nav>
+
         <div class="section" id="react">
          
             <div class="container" id="intro-section">
 
                 <div class="overlay"></div>
                 <video autoplay="" loop="" class="fillWidth fadeIn animated" style="width: 100%; margin-top: -20px;">
-                    <source src="image/Fuudy-video.mp4" type="video/mp4">
+                    <source src="./image/Fuudy-video.mp4" type="video/mp4">
                     
                 </video>
                 <div id = "Slogan" style="position: absolute;">
@@ -66,7 +78,7 @@
                   </article>
                     <ul class = "detailLinks">
                    <!-- <li><a href="learnmore.asp">[Why Fuudy]</a></li> -->
-                    <li><a href="about.html">[Our Story]</a></li>
+                    <li><a href="./about.html">[Our Story]</a></li>
                     </ul>
                 </div>
             </div>
@@ -175,12 +187,12 @@
                         <ul class="footer-logos">
                             <li>
                                 <a href="http://www.spicedesign.ca/" >
-                                    <img src="image/SPICE_LOGO.png" alt="Test1" />
+                                    <img src="./image/SPICE_LOGO.png" alt="Test1" />
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.ulife.utoronto.ca/organizations/view/id/1124" >
-                                    <img src="image/engsoc——logo.png" alt="Test2" />
+                                    <img src="./image/engsoc——logo.png" alt="Test2" />
                                 </a>
                             </li>
                         </ul>

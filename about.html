@@ -8,6 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
+    <!--import bootstrap, jquery and socket.io-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
 
     <link rel="favicon" href="favicon.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
@@ -20,18 +25,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-    <link href="basic.css" type="text/css" rel="stylesheet" media="screen" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="node_modules/gsap/src/uncompressed/TweenMax.js"></script>
     <script type="text/javascript" src="node_modules/gsap/src/uncompressed/plugins/ScrollToPlugin.js"></script>
     <script src="js/jquery.animateNumber.min.js"></script>
+
+    <!--Import custom css-->
+    <link rel="stylesheet" href="./css/about.css">
+
 </head>
 <style>
     body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
-    body, html {
-        height: 100%;
-        line-height: 1.8;
-    }
     .bgimg, .bgimg2 {
         min-height: 100%;
         background-position: center;
@@ -42,31 +46,15 @@
 </style>
 <body>
 
-
-
-<ul class="navbar" >
-    <!-- Right-sided navbar links -->
-
-        <li><a href="index.html">Main </a> </li>
-       <!-- <li><a href="contact.asp">Partners </a>  |</li>
-        <li><a href="about.asp">Contact </a>  |</li>
-        <li><a href="about.asp">Donate </a></li> -->
-
-</ul>
-
-
-
-
-
-
-<!-- Header / Home-->
-<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
-    <div class="w3-display-middle w3-text-white w3-center">
-        <h1 class="w3-jumbo">Our Story</h1>
-        <!--<h2>Anything you want (dont forget to change the background pic)</h2> -->
-    </div>
-</header>
-
+<nav>
+    <ul class="nav navbar-nav">
+        <li ><a href="./index.html">Main</a></li>
+        <li class="active"><a href="./about.html">Our Story</a></li>
+        <li><a href="#">Supporters</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+    </ul>
+    <button class="btn btn-success navbar-btn">Donate</button>
+</nav>
 
 
 
