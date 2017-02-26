@@ -2,9 +2,11 @@
 nav{
     margin-left: 550px
 }
+
 nav a{
     color:rgb(254, 129, 0);
 }
+
 
 .active {
     text-decoration: underline;
