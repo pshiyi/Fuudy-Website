@@ -467,27 +467,7 @@ body {
   font-weight: 100;
 }
 
-.nav{
 
-  color: orange;
-  list-style: none;
-  text-align: right;
-  padding: 5px 0 5px 0;
-}
-
-.nav > li{
-    display: inline-block;
-    padding: 0 1px 0 1px;
-}
-
-.nav > li > a{
-  text-decoration: none;
-  color:orange;
-}
-
-.nav > li > a:hover{
-  text-decoration: underline;
-}
 
 
 h1 {

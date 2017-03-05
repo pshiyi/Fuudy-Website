@@ -14,25 +14,35 @@
     <script type="text/javascript" src="/socket.io/socket.io.js"></script>
 
 
+
     <!--Import custom css-->
     <link rel="stylesheet" href="./css/contact.css">
 
     <!--MailChimp Signup form-->
     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
 </head>
 
 
 <body>
 <!-- Begin navigation bar -->
-<nav>
+<nav class="navbar navbar-custom">
+    <div class="navbar-header">
+        <img src="./image/logo3.png" alt="fuudy_logo" style="width:150px;height:60px;" class="logo_in_bar">
+    </div>
+
     <ul class="nav navbar-nav">
         <li><a href="./index.html">Main</a></li>
         <li><a href="./about.html">Our Story</a></li>
         <li><a href="./supporters.html">Supporters</a></li>
-        <li class="active"><a href="./contact.html">Contact</a></li>
+        <li  class="nav_active"><a href="./contact.html">Contact</a></li>
     </ul>
-    <button class="btn btn-success navbar-btn" onclick="window.location.href='./donate.html'">Donate</button>
+    <button class="btn btn-success navbar-btn navbar_button" onclick="window.location.href='./donate.html'">Donate</button>
 </nav>
 <!-- End navigation bar -->
 
@@ -65,8 +75,17 @@
             </div>
         </form>
     </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-16">
+        <p>Powered by <a href="http://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">Fuudy</a></p>
+    </footer>
+    <!--End mc_embed_signup-->
+
+
 </section>
-<!--End mc_embed_signup-->
+
+
 
 </body>
 </html>

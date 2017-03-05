@@ -1,23 +1,11 @@
 /*navigation bar*/
-nav{
-    margin-left: 550px
-}
-nav a{
-    color:rgb(254, 129, 0);
-}
-.active {
-    text-decoration: underline;
-    font-weight: bold;
-}
-
+@import url("share_navbar.css");
 
 /*background image for MailChimp*/
 .bgimg{
     min-height: 100%;
-    background-position: center;
-    background-size: contain;
+    background-color: #f1f1f1!important;
 }
-.bgimg {background-image: url("../image/contact_background.JPG")}
 
 
 /*MailChimp signup form*/
@@ -25,7 +13,7 @@ nav a{
     clear:left;
     font:14px Helvetica,Arial,sans-serif;
     width:500px;
-    margin-left: 250px;
+    margin-left: 25%;
 
 }
 
@@ -40,3 +28,6 @@ nav a{
 /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
    We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 
+footer {
+    margin-top: 35px;
+}
