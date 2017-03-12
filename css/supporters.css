@@ -1,2 +1,7 @@
 /*navigation bar*/
 @import url("share_navbar.css");
+
+.form-actions {
+    margin: 0;
+    text-align: center;
+}
