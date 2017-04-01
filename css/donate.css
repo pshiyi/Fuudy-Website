@@ -1,2 +1,60 @@
 /*navigation bar*/
 @import url("share_navbar.css");
+
+
+.header-image {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: lightgrey;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#helps.container-fluid {
+     background: orange;
+}
+
+.container-fluid h1 {
+	color: white;
+}
+
+.col-lg-3 p {
+	color : white;
+}
+
+.board-container{padding:40px;box-sizing:border-box}
+.board{background-color:white;height:100%;padding:40px;outline: 1px solid black;}
+
+.headline {
+    padding: 120px 0;
+}
+
+.headline h1 {
+    font-size: 100px;
+    color:white;
+}
+
+.headline h2 {
+    font-size: 77px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+form{
+   text-align: center;
+}
+
+.header-image {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: lightgrey;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
