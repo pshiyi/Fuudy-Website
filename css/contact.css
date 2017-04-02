@@ -1,11 +1,9 @@
 /*navigation bar*/
-@import url("share_navbar.css");
+@import url("new_share_navbar.css");
 
-/*background image for MailChimp*/
-.bgimg{
-    min-height: 100%;
-    background-color: #f1f1f1!important;
-}
+/**bottom navigation bar**/
+@import url("share_bottom_navbar.css");
+
 
 
 /*MailChimp signup form*/

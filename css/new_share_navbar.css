@@ -1,0 +1,30 @@
+.navbar-toggle, .icon-bar {
+    background-color: orange;
+    border:1px solid white;
+}
+
+
+.navbar-toggle{
+    margin-top: 8%;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .collapsing ul li .spc, .in ul li .spc {color:orange}
+}
+
+
+#upper_nav {
+    margin-top:30px;
+}
+.nav > li > .spc{
+    text-decoration: none;
+    color:orange;
+    font-family: Raleway, sans-serif;
+    font-size:20px;
+}
+
+.nav > li > .spc:hover{
+    text-decoration: underline;
+}
+

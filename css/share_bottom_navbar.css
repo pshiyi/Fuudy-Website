@@ -1,0 +1,9 @@
+/**bottom navigation bar**/
+#navbar_bottom{
+    margin-bottom:0px;
+    background-color: gainsboro;
+}
+
+#bottom_nav_div{
+    padding-top: 3%;
+}

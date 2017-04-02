@@ -48,11 +48,11 @@ body {
         }
 
         ul li a:hover { background: #617F8A; }
-        li:hover ul { 
-            display: block; 
+        li:hover ul {
+            display: block;
             position: absolute;
         }
-        li:hover li { 
+        li:hover li {
             float: none;
             font-size: 11px;
         }
