@@ -1,5 +1,8 @@
-/*navigation bar*/
-@import url("share_navbar.css");
+/**navigation bar**/
+@import url("new_share_navbar.css");
+
+/**bottom navigation bar**/
+@import url("share_bottom_navbar.css");
 
 
 .header-image {

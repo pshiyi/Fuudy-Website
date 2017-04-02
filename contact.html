@@ -35,7 +35,7 @@
     <div class="container-fluid">
         <div class="navbar-header">
             <a class="navbar-brand">
-                <img src="./image/logo3.png" alt="fuudy_logo" style="width:225px;height:90px;" class="logo_in_bar">
+                <img id="top_nav_logo" src="./image/logo3.png" alt="fuudy_logo"  class="logo_in_bar">
             </a>
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                 <span class="icon-bar"></span>
@@ -46,11 +46,11 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right" id="upper_nav">
-                <li><a class="spc" href="#"><span></span>MAIN</a></li>
-                <li><a class="spc" href="#"><span></span>OUR STORY</a></li>
-                <li><a class="spc" href="#"><span></span>SUPPORTERS</a></li>
-                <li><a class="spc" href="#"><span></span>CONTACT</a></li>
-                <li><a class="btn btn-warning" href="#"><span></span>DONATE</a></li>
+                <li><a class="spc" href="./index.html"><span></span>MAIN</a></li>
+                <li><a class="spc" href="./about.html"><span></span>OUR STORY</a></li>
+                <li><a class="spc" href="./supporters.html"><span></span>SUPPORTERS</a></li>
+                <li><a class="spc" href="./contact.html"><span></span>CONTACT</a></li>
+                <li><a class="btn btn-warning" href="./donate.html"><span></span>DONATE</a></li>
             </ul>
         </div>
     </div>
@@ -147,7 +147,7 @@
 <!-- contact content-->
 
 
-<!-- bottom navbar-->
+<!-- Begin bottom navbar-->
 <div id="bottom_nav_div">
     <nav class="navbar" id="navbar_bottom">
         <div class="navbar-header">
@@ -160,18 +160,45 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar_bottom">
             <ul class="nav navbar-nav" id="bottom_nav">
-                <li><a class="spc" href="#"><span></span>MAIN</a></li>
-                <li><a class="spc" href="#"><span></span>OUR STORY</a></li>
-                <li><a class="spc" href="#"><span></span>SUPPORTERS</a></li>
-                <li><a class="spc" href="#"><span></span>CONTACT</a></li>
-                <li><a class="spc" href="#"><span></span>DONATE</a></li>
+                <li><a class="spc" href="./index.html"><span></span>MAIN</a></li>
+                <li><a class="spc" href="./about.html"><span></span>OUR STORY</a></li>
+                <li><a class="spc" href="./supporters.html"><span></span>SUPPORTERS</a></li>
+                <li><a class="spc" href="./contact.html"><span></span>CONTACT</a></li>
+                <li><a class="spc" href="./donate.html"><span></span>DONATE</a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right" id="bot_nav_icons">
+                <li><a href="https://m.facebook.com/fuudy/"><i class="fa fa-facebook-square" style="color:orange;font-size:28px;"></i></a></li>
+                <li><a href="https://www.linkedin.com/company-beta/17994252/"><i class="fa fa-linkedin-square" style="color:orange;font-size:28px;"></i></a></li>
+                <li><a href="https://www.instagram.com/thefuudy/"><i class="fa fa-instagram" style="color:orange;font-size:28px;"></i></a></li>
+                <li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-wechat" style="color:orange;font-size:28px;"></i></a></li>
             </ul>
         </div>
     </nav>
 </div>
-<!--bottom navbar-->
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Scan the QR code to follow us in WeChat!</h4>
+            </div>
+            <div class="modal-body">
+                <img id="wechat_QR" src="./image/WeChat_QR_code.jpg">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- End bottom navbar-->
+
 
 </body>
 </html>
