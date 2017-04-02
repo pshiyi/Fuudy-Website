@@ -31,7 +31,7 @@
 .board-container{padding:40px;box-sizing:border-box}
 .board{background-color:white;height:100%;padding:40px;outline: 1px solid black;}
 
-.headline {
+. headline {
     padding: 120px 0;
 }
 
@@ -46,9 +46,6 @@
     background: rgba(255,255,255,0.9);
 }
 
-form{
-   text-align: center;
-}
 
 .header-image {
     display: block;
@@ -59,5 +56,11 @@ form{
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+
+
+form{
+   text-align: center;
 }
 

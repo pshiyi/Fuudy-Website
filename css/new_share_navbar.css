@@ -19,10 +19,6 @@
 }
 
 
-#upper_nav {
-    margin-top:30px;
-}
-
 #upper_nav li .spc{
     text-decoration: none;
     color:orange;
@@ -35,3 +31,9 @@
     text-decoration: underline;
 }
 
+
+
+#upper_nav {
+    margin-top: 30px;
+    margin-right: 30px;
+}
