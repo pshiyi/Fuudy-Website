@@ -7,10 +7,14 @@
 
 /**video section**/
 #video-landing {
-    height: 450px;
+    height: 540px;
     position: relative;
     overflow-y: hidden;
     color: white;
+}
+
+#video-landing p{
+    font-family: 'Noto Sans';
 }
 
 #video-landing video {
@@ -24,24 +28,33 @@
     z-index: -100;
 }
 
-#video-landing h1{
-    font-size:150px;
-    text-align: center;
-    padding-top: 5%;
+#main_page_logo {
+    width: 80%;
+    height: auto;
+    padding-top: 7%;
+    padding-left: 10%
 }
 
 #video-landing p{
-    font-size: 45px;
-    text-align: center;
+    padding-left: 13.5%;
 }
 
 /**introduction**/
 #intro_1 {
     padding:2%;
 }
-#intro_1 article{
-    text-align: center;
-    font-size: 30px;
+#intro_1 h{
+    font-size:55px;
+    color:orange;
+    font-family: 'Noto Sans';
+    padding-left: 1.8%;
+}
+
+#intro_1 p{
+    text-align: left;
+    font-size: 27px;
+    font-family: 'Noto Sans';
+    padding-left: 2%;
 }
 
 /**how it work**/
@@ -53,6 +66,7 @@
 /**timeline**/
 .time_line{
     width:100%;
+    height:auto;
 }
 
 /**support us**/
@@ -65,7 +79,6 @@
     margin-left: 150px;
 }
 #support_us{
-    padding-top: 1%;
     position: relative;
     background-color: grey;
     background-image: url("../image/main_supporter_us_bgimg_1.jpg");
@@ -75,11 +88,11 @@
 }
 
 #support_us #support_us_title{
-    padding-top: 2%
+    padding-top: 3.9%;
 }
 
 #support_us #support_us_title h{
-    font-size: 50px;
+    font-size: 55px;
     padding-left: 5%;
     color: white
 }
@@ -93,34 +106,27 @@
 }
 
 #support_us .units {
-    font-size: 15px;
+    font-size: 25px;
     margin-left: 4%;
     color: orange;
 
 }
 
 #support_us .organization{
-    font-size: 15px;
+    font-size: 22px;
     margin-left: 4%;
     color: white;
 
 }
 
 #support_us_container{
-    padding-top: 2%;
-    padding-left: 5%;
+    padding-top: 4.3%;
+    padding-left: 15%;
     margin-bottom: 6%;
 }
 
 
 /**supporters**/
-.floating-box1 {
-    display: inline-block;
-    width: 150px;
-    height: 75px;
-    margin: 10px;
-    margin-left: 5%;
-}
 
 #supporters{
     position:relative;
@@ -128,13 +134,74 @@
 }
 
 #supporters #supporters_title_text h{
-    font-size: 50px;
+    font-size: 55px;
     padding-left: 5%;
     color: orange;
+    font-family: 'Noto Sans';
+
 }
 
 #supporters #supporters_title_text p{
     font-size: 18px;
     padding-left: 5%;
-
+    font-family: 'Noto Sans';
 }
+
+.ms_img_1{
+    width: 100%;
+    height: auto;
+    margin-top: 15%;
+}
+
+.ms_img_2{
+    width: 57%;
+    height: auto;
+    padding-top: 12%
+}
+
+.ms_img_3{
+    width:80%;
+    height:auto;
+}
+
+.ms_img_4{
+    width: 100%;
+    height: auto;
+    margin-top: 28%;
+}
+
+.ms_img_5{
+    width: 85%;
+    height: auto;
+    margin-top: 1%;
+}
+
+.ms_img_6{
+    width: 95%;
+    height: auto;
+    margin-top: 8%;
+}
+
+.ms_img_7{
+    width: 70%;
+    height: auto;
+}
+
+.ms_img_8{
+    width: 90%;
+    height: auto;
+    margin-top: 20%;
+}
+.ms_img_9{
+    width: 98%;
+    height: auto;
+    margin-top: 10%;
+}
+
+
+.ms_img_10{
+    margin-top: 20%;
+    margin-left: 18%;
+    font-family: 'Noto Sans';
+}
+

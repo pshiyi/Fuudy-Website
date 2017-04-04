@@ -22,8 +22,8 @@
 #upper_nav li .spc{
     text-decoration: none;
     color:orange;
-    font-family: Raleway, sans-serif;
     font-size:20px;
+    font-family: 'Noto Sans';
 }
 
 
@@ -36,4 +36,5 @@
 #upper_nav {
     margin-top: 30px;
     margin-right: 30px;
+
 }
