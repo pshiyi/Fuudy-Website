@@ -5,11 +5,42 @@
 @import url("share_bottom_navbar.css");
 
 
+/*Ttile*/
+#contact_title{
+    weight:100%;
+    height:400px;
+    background-color: darkgrey;
+}
+
+#contact_title h1{
+    padding-top: 9%;
+    color:white;
+    font-size:70px;
+    text-align: center;
+    font-family: 'Noto Sans';
+}
+
+/*Contact Content*/
+#contact_ct{
+    padding-top: 1%;
+}
+#contact_ct h{
+    font-size: 45px;
+    padding-left: 2%;
+    color: orange;
+    font-family: 'Noto Sans';
+}
+
+#contact_image{
+    width:589.6px;
+    height:337.6px;
+}
 
 /*MailChimp signup form*/
 #mc_embed_signup{
     clear:left;
-    font:14px Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-family: 'Noto Sans';
     width:500px;
     margin-left: 25%;
 
