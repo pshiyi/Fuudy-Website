@@ -5,33 +5,29 @@
 @import url("share_bottom_navbar.css");
 
 
-.header-image {
-    display: block;
-    width: 100%;
-    text-align: center;
-    background: lightgrey;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 
-#helps.container-fluid {
+#helps.container {
      background: orange;
+     width: 100%;
 }
 
-.container-fluid h1 {
+#helps.container h1 {
 	color: white;
 }
 
-.col-lg-3 p {
+.col-sm-3 p {
 	color : white;
 }
 
-.board-container{padding:40px;box-sizing:border-box}
-.board{background-color:white;height:100%;padding:40px;outline: 1px solid black;}
+.board-container{box-sizing:border-box; padding-top: 1%;}
+.board{
+    background-color:white;
+    padding:40px;
+    outline: 1px solid black; 
+    padding-top: 1%;
+}
 
-. headline {
+.headline {
     padding: 120px 0;
 }
 
@@ -47,20 +43,75 @@
 }
 
 
-.header-image {
-    display: block;
-    width: 100%;
+
+
+#donate_header{
+    position: relative;
+    background-color: grey;
+    background-image: url("../image/main_supporter_us_bgimg_1.jpg");
+    background-size: 100%;
+    width:100%;
+    height: 400px;
+}
+
+
+#donate_header #donate_title{
+    padding-top: 12%;
+}
+
+#donate_header #donate_title h{
+    font-size: 55px;
+    padding-left: 40%;
+    color: white
+}
+
+#helps .col-sm-3{
+    padding-left: 15%;
+}
+
+
+
+.percent{
+    font-size:48px;
+    font-family: "Varela Round";
+    color:white;
     text-align: center;
-    background: lightgrey;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+}
+
+#stuass .text-center{
+    color: white;
+    font-family: "Varela Round";
+}
+
+#buttom-part {
+    padding-top: 1%;
+    background: : white;
+}
+
+#buttom-part.container{
+    background:white;
+    width:100%;
+    height: 100%;
 }
 
 
-
-form{
-   text-align: center;
+/**Student Associations**/
+ #stuass{
+     margin-top: 0%;
+     background: orange;
+ }
+#stuass h{
+    font-size: 35px;
+    padding-left: 2%;
+    color: white;
+    font-family: "Varela Round";
 }
+
+#stuass h2{
+    font-family: "Varela Round";
+    font-size: 25px;
+    padding-left: 5%;
+    color: black;
+}
+
 
