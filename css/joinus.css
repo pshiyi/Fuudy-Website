@@ -40,6 +40,60 @@
 #stuass h2{
     font-family: "Varela Round";
     font-size: 25px;
-    padding-left: 5%;
+    padding-left: 10%;
     color: white;
+}
+
+
+#stuass .join_img{
+    width:100%;
+    height:auto;
+    padding-top: 10%;
+    padding-left: 20%;
+}
+
+
+ #volunteer{
+     margin-top: 0%;
+     background: white;
+ }
+#volunteer h{
+    font-size: 35px;
+    padding-left: 2%;
+    color: orange;
+    font-family: "Varela Round";
+}
+
+#volunteer h1{
+    font-family: "Varela Round";
+    font-size: 25px;
+    padding-left: 0%;
+    color: black;
+}
+
+#volunteer .volunteer_img{
+    width:100%;
+    height:auto;
+    
+    padding-left: 2%;
+}
+
+/**Student Associations**/
+ #internships{
+     margin-top: 2%;
+     background: white;
+     border-top: solid 4px orange;
+ }
+#internships h{
+    font-size: 35px;
+    padding-left: 2%;
+    color: orange;
+    font-family: "Varela Round";
+}
+
+#internships h2{
+    font-family: "Varela Round";
+    font-size: 25px;
+    padding-left: 0%;
+    color: black;
 }
