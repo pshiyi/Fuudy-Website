@@ -5,6 +5,10 @@
 @import url("share_bottom_navbar.css");
 
 
+body {
+  font-family: "Varela Round";
+}
+
 /*Ttile*/
 #contact_title{
     weight:100%;
@@ -20,7 +24,7 @@
     color:white;
     font-size:70px;
     text-align: center;
-    font-family: 'Noto Sans';
+    font-family: "Varela Round";
 }
 
 /*Contact Content*/
@@ -31,7 +35,7 @@
     font-size: 45px;
     padding-left: 2%;
     color: orange;
-    font-family: 'Noto Sans';
+    font-family: "Varela Round";
 }
 
 #contact_image{
@@ -43,7 +47,7 @@
 #mc_embed_signup{
     clear:left;
     font-size: 14px;
-    font-family: 'Noto Sans';
+    font-family: "Varela Round";
     width:500px;
     margin-left: 25%;
 

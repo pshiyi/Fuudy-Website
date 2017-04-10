@@ -14,7 +14,7 @@
 }
 
 #video-landing p{
-    font-family: 'Noto Sans';
+    font-family: "Varela Round";
 }
 
 #video-landing video {
@@ -46,14 +46,14 @@
 #intro_1 h{
     font-size:55px;
     color:orange;
-    font-family: 'Noto Sans';
+    font-family: "Varela Round";
     padding-left: 1.8%;
 }
 
 #intro_1 p{
     text-align: left;
     font-size: 27px;
-    font-family: 'Noto Sans';
+    font-family: "Varela Round";
     padding-left: 2%;
 }
 
@@ -137,14 +137,14 @@
     font-size: 55px;
     padding-left: 5%;
     color: orange;
-    font-family: 'Noto Sans';
+    font-family: "Varela Round";
 
 }
 
 #supporters #supporters_title_text p{
     font-size: 18px;
     padding-left: 5%;
-    font-family: 'Noto Sans';
+    font-family: "Varela Round";
 }
 
 .ms_img_1{
