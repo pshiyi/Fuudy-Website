@@ -23,3 +23,23 @@
     padding-left: 40%;
     color: white
 }
+
+
+/**Student Associations**/
+ #stuass{
+     margin-top: 0%;
+     background: DarkGrey;
+ }
+#stuass h{
+    font-size: 35px;
+    padding-left: 2%;
+    color: orange;
+    font-family: "Varela Round";
+}
+
+#stuass h2{
+    font-family: "Varela Round";
+    font-size: 25px;
+    padding-left: 5%;
+    color: white;
+}
