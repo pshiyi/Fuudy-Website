@@ -1,0 +1,25 @@
+/**navigation bar**/
+@import url("new_share_navbar.css");
+
+/**bottom navigation bar**/
+@import url("share_bottom_navbar.css");
+
+#joinus_header{
+    position: relative;
+    background-color: grey;
+    background-image: url("../image/banner_join.jpeg");
+    background-size: 100%;
+    width:100%;
+    height: 400px;
+}
+
+
+#joinus_header #joinus_title{
+    padding-top: 12%;
+}
+
+#joinus_header #joinus_title h{
+    font-size: 55px;
+    padding-left: 40%;
+    color: white
+}
