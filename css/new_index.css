@@ -4,10 +4,25 @@
 /**bottom navigation bar**/
 @import url("share_bottom_navbar.css");
 
+body {
+  font-family: "Varela Round";
+}
+
+
+.post-content {
+    background: none repeat scroll 0 0 #FFFFFF;
+    opacity: 0.5;
+    top:0;
+    left:0;
+    position: absolute;
+}
+
+
+
 
 /**video section**/
 #video-landing {
-    height: 540px;
+    height: auto;
     position: relative;
     overflow-y: hidden;
     color: white;
@@ -63,12 +78,43 @@
     height:80%;
 }
 
+
+
+.thumbnail {
+    position: relative;
+    border: 0 none;
+    box-shadow: none;
+}
+
+#how_it_work_img .caption {
+    font-size: 55px;
+    position: absolute;
+    top: 1%;
+    left: 3%;
+}
+
+#how_it_work_img .caption p {
+    color: white;
+    font-family: 'Noto';
+}
+
 /**timeline**/
 .time_line{
     width:100%;
     height:auto;
 }
 
+#time_line_img .caption {
+    font-size: 55px;
+    position: absolute;
+    top: 0.5%;
+    left: 1%;
+}
+
+#time_line_img .caption p {
+    color: orange;
+    font-family: "Varela Round";
+}
 /**support us**/
 .floating-box {
     display: inline-block;

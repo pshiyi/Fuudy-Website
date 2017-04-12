@@ -1,4 +1,9 @@
 /**bottom navigation bar**/
+
+body {
+  font-family: "Varela Round";
+}
+
 #navbar_bottom{
     margin-bottom:0px;
     background-color: gainsboro;

@@ -4,6 +4,11 @@
 /**bottom navigation bar**/
 @import url("share_bottom_navbar.css");
 
+
+body {
+  font-family: "Varela Round";
+}
+
 /**Title**/
 #contact_title{
     weight:100%;

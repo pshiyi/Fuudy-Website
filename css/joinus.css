@@ -4,6 +4,10 @@
 /**bottom navigation bar**/
 @import url("share_bottom_navbar.css");
 
+body {
+  font-family: "Varela Round";
+}
+
 #joinus_header{
     position: relative;
     background-color: grey;
@@ -29,6 +33,7 @@
  #stuass{
      margin-top: 0%;
      background: DarkGrey;
+     position:relative;
  }
 #stuass h{
     font-size: 35px;
@@ -56,6 +61,7 @@
  #volunteer{
      margin-top: 0%;
      background: white;
+     position:relative;
  }
 #volunteer h{
     font-size: 35px;
