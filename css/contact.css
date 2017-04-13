@@ -39,8 +39,7 @@ body {
 }
 
 #contact_image{
-    width:589.6px;
-    height:337.6px;
+    width:100%
 }
 
 /*MailChimp signup form*/
@@ -48,9 +47,7 @@ body {
     clear:left;
     font-size: 14px;
     font-family: "Varela Round";
-    width:500px;
-    margin-left: 25%;
-
+    width:100%;
 }
 
 #mc_embed_signup h2{
