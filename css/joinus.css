@@ -65,7 +65,7 @@ body {
  }
 #volunteer h{
     font-size: 35px;
-    padding-left: 2%;
+    margin-left: 2%;
     color: orange;
     font-family: "Varela Round";
 }
@@ -73,7 +73,7 @@ body {
 #volunteer h1{
     font-family: "Varela Round";
     font-size: 25px;
-    padding-left: 0%;
+    margin-left: 0%;
     color: black;
 }
 
@@ -81,7 +81,7 @@ body {
     width:100%;
     height:auto;
     
-    padding-left: 2%;
+    margin-left: 2%;
 }
 
 /**Student Associations**/
