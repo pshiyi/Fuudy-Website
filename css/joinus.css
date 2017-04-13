@@ -45,16 +45,17 @@ body {
 #stuass h2{
     font-family: "Varela Round";
     font-size: 25px;
-    padding-left: 10%;
     color: white;
 }
 
 
 #stuass .join_img{
-    width:100%;
+    width:90%;
     height:auto;
-    padding-top: 10%;
-    padding-left: 20%;
+}
+
+#stuass #r_c_p{
+    padding-left:8%;
 }
 
 
