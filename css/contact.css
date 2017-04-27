@@ -20,9 +20,9 @@ body {
 }
 
 #contact_title h1{
-    padding-top: 9%;
+    padding-top: 15%;
     color:white;
-    font-size:70px;
+    font-size:50px;
     text-align: center;
     font-family: "Varela Round";
 }
@@ -32,7 +32,7 @@ body {
     padding-top: 1%;
 }
 #contact_ct h{
-    font-size: 45px;
+    font-size: 36px;
     padding-left: 2%;
     color: orange;
     font-family: "Varela Round";

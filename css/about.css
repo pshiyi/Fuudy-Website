@@ -14,13 +14,17 @@
 }
 
 #about_title h1{
-    padding-top: 10%;
+    padding-top: 15%;
     color:white;
-    font-size:70px;
+    font-size:50px;
     text-align: center;
     font-family: "Varela Round";
 }
 
+
+#about_title article{
+      text-align:center;
+}
 body {
   font-family: "Varela Round";
 }

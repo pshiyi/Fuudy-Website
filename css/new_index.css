@@ -41,13 +41,15 @@ body {
 }
 
 #main_page_logo {
-    width: 80%;
+    width: 60%;
     height: auto;
     padding-left: 10%;
+    padding-top: 10%;
 }
 
 #video-landing p{
-    padding-left: 13.5%;
+    padding-left: 12%;
+    margin: 5px 0 30px;
     font-size: 20px;
 }
 
@@ -90,10 +92,10 @@ body {
 }
 
 #time_line_img h1{
-    padding-left:6%;
+    padding:2% 5% 2%;
     color:orange;;
     font-family: "Varela Round";
-    font-size:50px;
+    font-size:32px;
 
 }
 
@@ -123,7 +125,7 @@ body {
 }
 
 #support_us #support_us_title h{
-    font-size: 50px;
+    font-size: 32px;
     padding-left: 5%;
     color: white
 }
@@ -161,19 +163,19 @@ body {
 
 #supporters{
     position:relative;
-    padding-top: 1%;
+    padding-top: 3%;
 }
 
 #supporters #supporters_title_text h{
-    font-size: 50px;
-    padding-left: 5%;
+    font-size: 32px;
+    padding: 1% 5%;
     color: orange;
     font-family: "Varela Round";
 
 }
 
 #supporters #supporters_title_text p{
-    font-size: 18px;
+    font-size: 16px;
     padding-left: 5%;
     font-family: "Varela Round";
 }
@@ -219,9 +221,9 @@ body {
 }
 
 .ms_img_8{
-    width: 90%;
+    width: 70%;
     height: auto;
-    margin-top: 20%;
+    margin-top: 2%;
 }
 .ms_img_9{
     width: 98%;
